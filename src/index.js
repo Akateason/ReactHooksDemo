@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import Example from './Example'
-import ExampleRedux from './ExampleUseRedux/ExampleRedux';
+// import ExampleRedux from './ExampleUseRedux/ExampleRedux';
+import ExampleUseMemo from './ExampleUseMemo/ExampleUseMemo';
 
 ReactDOM.render(  
-    <ExampleRedux />,
+    <ExampleUseMemo />,
   document.getElementById('root')
 );
 
