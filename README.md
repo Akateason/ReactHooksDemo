@@ -6,3 +6,4 @@ npm i
 
 - Example useState
 - Example useRedux
+- Example useMemo
