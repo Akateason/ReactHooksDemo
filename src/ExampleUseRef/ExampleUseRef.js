@@ -22,12 +22,12 @@ export default function ExampleUseRef() {
 
   return (
     <>
-      {/* 用法一 */}
+      {/* 用法一 操作dom*/}
       <input ref={inputElement} type='text' />
       <button onClick={onButtonClick}>在input上显示文字</button>
       <br />
       <br />
-      {/* 用法二 */}
+      {/* 用法二 保存变量*/}
       <input value={text} onChange={(e)=>{setText(e.target.value)}} />
     </>
   )
